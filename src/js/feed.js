@@ -59,7 +59,6 @@ function createCards() {
 
 function go_detail_page(id) {
   var url = `https://tes1-ambw-c14210065-c114e-default-rtdb.asia-southeast1.firebasedatabase.app/posts/${id}.json`;
-  let fetch_success = false;
   sessionStorage['page'] = id;
 
   fetch(url)
